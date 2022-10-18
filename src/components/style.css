@@ -1,0 +1,256 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.mainBody
+{
+
+}
+.mainComponents
+{
+    margin: 40px 300px;
+}
+.component1
+{
+    display: flex;
+    background-color: #672280;
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+}
+.component2
+{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    grid-gap: 10px;
+}
+.component2Input1, .component2Input2
+{
+    font-family: 'Karla', sans-serif;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+.component2Input1
+{
+}
+.buttonMeme
+{
+    grid-column: 1 / -1;
+    font-family: 'Karla', sans-serif;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #672280;
+}
+.meme
+{
+    width: 32px;
+    height: 27px;
+}
+.memeParagraph1
+{
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 10px;
+}
+.memeParagraph2
+{
+    margin-right: 20px;
+}
+.component4
+{
+    position: relative;
+    max-width: 100%;
+    border: 1px solid black;
+    height: 400px;
+}
+.component4Img
+{
+    max-width: 100%;
+    height: 100%;
+}
+.component4Badge1
+{
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+.component4Badge2
+{
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
+.component3
+{
+    width: 100%;
+    background-color: #672280;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 1px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.Practice2
+{
+    border: 2px solid rgb(226, 223, 223);
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(173, 172, 172);
+}
+.troll
+{
+    width: 70%;
+    height: 220px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.star
+{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+.Practice2 h1, p
+{
+    margin-left: 10px;
+    max-width: 100%;
+    overflow: auto;
+}
+.clickHandler
+{
+    margin-top: 50px;
+    background-color: rgb(31, 30, 30);
+    text-align: center;
+    padding-top: 20px;
+}
+.zeroDiv
+{
+    position: relative;
+    border: 3px solid black;
+    width: 100%;
+    height: 200px;
+}
+.zero
+{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin: auto;
+    padding: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* .minus, .plus
+{
+    color: white;
+    background-color: rgb(151, 146, 146);
+    
+    text-align: center;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+
+}
+.minus
+{
+    position: absolute;
+    bottom: 32%;
+    left: 39%;
+}
+.plus
+{
+    position: absolute;
+    bottom: 32%;
+    right: 39%;
+    
+}
+.para1, .para2
+{
+    margin: 0;
+    padding: 0;
+} */
+.box
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+.form2
+{
+    background-color: #672280;
+    width: 500px;
+    padding: 20px;
+}
+.form2 form
+{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    
+}
+.input1, .input2, .input3, .buttonForm
+{
+    display: block;
+    height: 35px;
+    width: 250px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: 1px solid rgb(212, 208, 208);
+    text-indent: 10px;
+}
+.check
+{
+    display: flex;
+    margin-bottom: 15px;
+    width: 250px;
+
+}
+label
+{
+    text-align: justify;
+    width: 150px;
+    padding-left: 4px;
+}
+.buttonForm
+{
+    width: 125px;
+    background-color: #672280;
+    color: white;
+    border: none;
+}
